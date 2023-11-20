@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+$white: hsl(0, 0%, 100%);
+$lightGray: hsl(212, 45%, 89%);
+$grayBlue: hsl(220, 15%, 55%);
+$darkBlue: hsl(218, 44%, 22%);
+
+#root {
+  max-width: 100%;
+  min-width: 375px;
+  height: 100vh;
+  background-color: $lightGray;
+  font-family: 'Outfit';
+  padding: 2rem;
+  text-align: center;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 18rem;
+  margin: 10px;
+}
+
+.qr {
+  padding: 12px;
+  border-radius: 6px;
+}
+
+
+
+.details {
+  color: $grayBlue;
+}
+
