@@ -17,22 +17,35 @@ $darkBlue: hsl(218, 44%, 22%);
 .contain {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
-.card {
+#card {
   width: 18rem;
   margin: 10px;
+  padding: 0.2rem;
+  border-radius: 0.8rem;
+  padding-bottom: 0.5rem;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1),
 }
 
-.qr {
+#qr {
   padding: 12px;
-  border-radius: 6px;
+  border-radius: 1.3rem; 
+}
+
+#title {
+  font-weight: 700;
+  color: $darkBlue;
 }
 
 
-
-.details {
+#details {
   color: $grayBlue;
+  font-weight: 400;
+  font-size: 0.9rem;
 }
 
+.attribution {
+  margin-top: 5px;
+}
